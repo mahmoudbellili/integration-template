@@ -1,0 +1,430 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'lato';
+}
+
+/**Start Header**/
+header {
+    background-image: url("../images/background-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+
+header .backgound-header {
+    background-image: url("../images/Layer_3.png");
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+header .carousel {
+    position: initial;
+}
+
+header .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+header .navbar ul > li > a {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(252, 252, 252) !important;
+    font-weight: bold;
+    line-height: 1.75;
+    text-align: center;
+    z-index: 104;
+    opacity: 0.5;
+    text-transform: capitalize;
+
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: transparent;
+    color: #fff;
+    opacity: 1;
+}
+header .navbar-default img, header .navbar-default ul {
+    margin-top: 30px;
+    float: right;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Lato";
+    color: transparent;
+    font-weight: bold;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.binner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carousel-caption {
+    padding-bottom: 200px;
+}
+
+.carousel-caption h2 {
+    font-size: 40px;
+    font-family: "Lato";
+    color: rgb(252, 252, 252);
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.carousel-caption p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+}
+
+.carousel-caption a {
+    font-family: Lato;
+    font-weight: regular;
+    margin-top: 30px;
+    color: #ff6d6d;
+    font-size: 20px;
+}
+
+/**End Header**/
+
+/**Start Project**/
+.section1 {
+   padding: 40px 0;
+}
+
+.section1 h2 {
+    font-size: 38px;
+    font-family: "Lato";
+    color: rgb(255, 109, 109);
+    font-weight: bold;
+    line-height: 1.842;
+    z-index: 84
+}
+
+.section1 p {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(34, 34, 34);
+    line-height: 1.5;
+    text-align: center;
+    z-index: 83;
+}
+
+.section1 a.btn {
+    border-radius: 3px;
+    background-color: rgb(255, 109, 109);
+    margin: auto;
+    padding: 10px 75px;
+
+}
+
+/**End Project**/
+
+/**Start Features**/
+.section2 {
+    background-image: url("../images/bg.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+
+}
+
+section.section2 h3 {
+    font-size: 38px;
+    font-family: "Lato";
+    color: rgb(255, 109, 109);
+    font-weight: bold;
+}
+
+section.section2 .section-title p.section-description {
+    font-size: 21px;
+    font-family: "Lato";
+    color: rgb(34, 34, 34);
+    line-height: 1.333;
+    text-align: center;
+}
+
+section.section2 img {
+    margin-top: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+section.section2 p.my-date {
+    font-size: 12px;
+    font-family: "Lato";
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 4.161;
+    text-align: center;
+    -moz-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+    -webkit-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+    -ms-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+}
+
+section.section2 h4 {
+    font-size: 22px;
+    font-family: "Lato";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+    -moz-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+    -webkit-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+    -ms-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+}
+section.section2 p{
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(40, 40, 40);
+    line-height: 1.5;
+    text-align: center;
+    -moz-transform: matrix( 1,0,0,0.99926744073986,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99926744073986,0,0);
+    -ms-transform: matrix( 1,0,0,0.99926744073986,0,0);
+}
+
+
+section.section2 a {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 109, 109);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 3.567;
+    text-align: center;
+    -moz-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+    -webkit-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+    -ms-transform: matrix( 1.00085475802915,0,0,0.99871957793053,0,0);
+}
+
+/**End Features**/
+
+/* carousel */
+.media-carousel
+{
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+    background: #333333;
+}
+
+/* End carousel */
+/**Start Contact**/
+
+section.section4 {
+    background-color: #323969;
+    padding: 40px 0;
+}
+
+.section4 h3 {
+    font-size: 38px;
+    font-family: "Lato";
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+}
+
+.section4 p {
+    font-size: 21px;
+    font-family: "Lato";
+    color: rgb(152, 160, 165);
+    line-height: 1.333;
+}
+
+.section4 .form-control {
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.section4 .btn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.section4 .icon-block a {
+    text-decoration: none;
+    color: #fff;
+}
+.section4 .icon-block ul{
+    list-style-type: none;
+}
+.section4 .icon-block li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 3px;
+    background: #fff;
+    line-height: 30px;
+}
+.section4 i {
+    font-size: 15px;
+    color: #323969;
+}
+
+/**End Contact**/
+
+/**Start Footer**/
+
+footer {
+    padding: 20px 0;
+}
+
+footer .copyright {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 2.75;
+}
+
+footer ul.my-navigation{
+    float: right;
+}
+footer .my-navigation li{
+    float: left;
+}
+footer .my-navigation li a {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 0.75;
+    text-align: center;
+}
+
+/**End Footer**/
+#owl-demo{
+    padding: 30px 50px;
+}
+.section3 .container{
+    position: relative;
+}
+.section3 .btn{
+    font-size: 40px;
+    position: absolute;
+    top: 25px;
+    color: #999;
+}
+.section3 .prev{
+    left: 0;
+}
+.section3 .next{
+    right: 0;
+}
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: auto;
+    height: auto;
+}
+@media (max-width: 767px){
+    .carousel-caption h2 {
+        font-size: 30px;
+    }
+    header .navbar-default img {
+        float: left;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background: rgba(2, 2, 2, 0.4);
+    }
+    .section1 h2 ,
+    section.section2 h3,
+    .section4 h3{
+        font-size: 20px;
+    }
+    section.section2 img {
+        margin-top: 20px;
+    }
+    .section4 p {
+        font-size: 18px;
+    }
+    #owl-demo .item img {
+        width: 100%;
+    }
+    .section3 .btn {
+        top: 50px;
+    }
+}
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px){
+
+}
+
+@media (min-width: 1281px) and (max-width: 1440px){
+
+}
